@@ -35,29 +35,31 @@ header, div, ol{
 header p{
     font-size:150%;
     color:white;
-    margin-left: 50px;
+    margin-left: 40px;
 }
 
 a{
-    color: white;
+    color:whitesmoke;
     margin-right: 50px;
-    margin-left:30px;}
-
+    margin-left:30px;
+    text-decoration: none;
+}
 
 .container{
     display: flex;
     margin-top: 10%;
     margin-bottom: 20%;
-    column-gap: 20px;
+    column-gap: 5px;
 }
 
 .description{
     text-align: justify;
-    width:30%;
+    width:33%;
     margin-left: 2%;
+    margin-right: 6px;
     padding:20px;
     display: inline-block;
-    box-shadow: 5px 10px 10px 5px lightskyblue;
+    box-shadow: 3px 3px 3px 3px burlywood;
 }
 .description h2{
     text-align: center;

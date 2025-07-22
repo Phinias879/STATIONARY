@@ -1,7 +1,7 @@
 body{
     margin:0;
     padding:0;
-    background-color: rgb(208, 222, 222);
+    background-color: rgba(209, 215, 215, 0.247);
 }
 #background-image{
     background-image: url('img/stationaries.jpg');
@@ -48,7 +48,7 @@ a{
 .container{
     display: flex;
     margin-top: 10%;
-    margin-bottom: 20%;
+    margin-bottom: 10%;
     column-gap: 5px;
 }
 
@@ -58,9 +58,24 @@ a{
     margin-left: 2%;
     margin-right: 6px;
     padding:20px;
-    display: inline-block;
     box-shadow: 3px 3px 3px 3px burlywood;
 }
 .description h2{
     text-align: center;
+}
+
+.image-gallery{
+    display:flex;
+    background-color: white;
+}
+div img{
+    width: 300px;
+    height: 300px;
+    column-gap: 20px;
+    margin-top: 10%;
+    margin-left: 30px;
+    margin-right: 10px;
+    box-shadow:3px 3px 3px 3px rgb(186, 176, 176);
+    border-radius: 5px;
+    
 }

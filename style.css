@@ -47,17 +47,19 @@ a{
 
 .container{
     display: flex;
+    flex-wrap: wrap;
     margin-top: 10%;
     margin-bottom: 10%;
-    column-gap: 5px;
+    column-gap: 20px;
 }
 
 .description{
     text-align: justify;
-    width:33.3%;
+    text-wrap: wrap;
+    width:26%;
     margin-left: 2%;
-    margin-right: 6px;
-    padding:20px;
+    margin-right: 2px;
+    padding:25px;
     box-shadow: 3px 3px 3px 3px burlywood;
 }
 .description h2{
@@ -66,6 +68,7 @@ a{
 
 .image-gallery{
     display:flex;
+    flex-wrap: wrap;
     background-color: white;
 }
 div img{

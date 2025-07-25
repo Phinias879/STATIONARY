@@ -14,7 +14,7 @@ body{
     background-repeat: no-repeat;
 }
 
-header, div, ol{
+header, div {
     font-family: sans-serif;
     font-size: 100%;
     line-height: 2;
@@ -29,25 +29,24 @@ header, div, ol{
     overflow: hidden;
     padding-bottom: 3px;
     border-top: 20px solid green;
-    
+   
 }
 
 header p{
     font-size:150%;
     color:white;
-    margin-left: 40px;
+    margin-left: 30px;
 }
 
 a{
     color:whitesmoke;
     margin-right: 50px;
-    margin-left:30px;
+    margin-left:20px;
     text-decoration: none;
 }
 
 .container{
     display: flex;
-    flex-wrap: wrap;
     margin-top: 10%;
     margin-bottom: 10%;
     column-gap: 20px;
@@ -56,8 +55,9 @@ a{
 .description{
     text-align: justify;
     text-wrap: wrap;
-    width:26%;
-    margin-left: 2%;
+    max-width: 100%;
+    width:auto;
+    margin-left: 1%;
     margin-right: 2px;
     padding:25px;
     box-shadow: 3px 3px 3px 3px burlywood;
@@ -69,6 +69,8 @@ a{
 .image-gallery{
     display:flex;
     flex-wrap: wrap;
+    max-width: 100%;
+    height: auto;
     background-color: white;
 }
 div img{
